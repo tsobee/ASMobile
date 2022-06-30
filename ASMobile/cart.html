@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="On this page you can finish your purchase"/>
+    <meta name="keywords" content="cart, finish, purchase, buy"/>
+    <meta name="author" content="Aleksa Strugarević"/>
+    <title>AS mobile</title>
+    <link rel="shortcut icon" href="assets/img/logo.ico"/>
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="assets/css/style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+<div id="snackbar"></div>
+<div id="btnTop">
+    <button class="topBtn tBtn"><a href="#pozadina"><i class="fas fa-angle-up"></i></a></button>
+</div>
+<div id='mobileMenu' class="nav">
+    <i class='fa fa-bars ml-3 mt-3' id="hamb" style="color: white;font-size: 40px"></i>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" id="hambClose">&times;</a>
+    </div>
+</div>
+<div id='menju' class="nav"></div>
+<div id="pozadina">
+    <h1 class="tekst">Welcome to the ASmobile shop</h1>
+    <p class="down">Check cart</p>
+    <a href="#cart"><i class="fas fa-chevron-down"></i></a>
+</div>
+<div id="about">
+
+</div>
+<h1 id="cartt" class="f">Cart</h1>
+
+<div class="row justify-content-center" >
+    <div class="col-12 col-lg-8 px-0 mt-5">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Model</th>
+                <th scope="col">Price</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Sum</th>
+                <th scope="col">Change</th>
+            </tr>
+            </thead>
+            <tbody id="cart">
+            </tbody>
+            <tfoot>
+            <tr>
+                <td colspan="4"></td>
+                <td id="total"></td>
+            </tr>
+            </tfoot>
+        </table>
+        <div class="row justify-content-center totalM">
+            <p>Total: <span id="totalM"></span></p>
+        </div>
+        <div class="row justify-content-center">
+            <button class="btn btn-dark" id="confirm">Finish</button>
+        </div>
+    </div>
+</div>
+
+<div id="footerMenu" class="foot mt-5">
+    <h3 class="usl">
+        Useful links
+    </h3>
+</div>
+<div id="useful" class="use">
+</div>
+<div id="cpr">
+    <p>Copyright by Aleksa Strugarević &copy</p>
+</div>
+<script src="assets/vendor/jquery/jquery.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/cart.js"></script>
+
+
+</body>
+</html>

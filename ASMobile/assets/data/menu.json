@@ -1,0 +1,72 @@
+[
+    {
+        "stranica" : "Home",
+        "href" : "index.html",
+        "header": true,
+        "footer": true,
+        "usefulLinks" : false
+    },
+    {
+        "stranica" : "Shop",
+        "href" : "shop.html",
+        "header": true,
+        "footer": true,
+        "usefulLinks" : false
+    },
+    {
+        "stranica" : "Contact",
+        "href" : "contact.html",
+        "header": true,
+        "footer": true,
+        "usefulLinks" : false
+    },
+    {
+        "stranica" : "<i class='fa fa-shopping-cart'></i>",
+        "href" : "cart.html",
+        "header": true,
+        "footer": false,
+        "usefulLinks" : false
+    },
+    {
+        "stranica" : "<i class='fab fa-facebook'></i> Facebook",
+        "href" : "https://www.facebook.com/",
+        "header": false,
+        "footer": true,
+        "usefulLinks" : false
+    },
+    {
+        "stranica" : "<i class='fab fa-instagram'></i> Instagram",
+        "href" : "https://www.instagram.com/",
+        "header": false,
+        "footer": true,
+        "usefulLinks" : false
+    },
+    {
+        "stranica" : "<i class='fab fa-whatsapp'></i> Whatsapp",
+        "href" : "https://www.whatsapp.com/",
+        "header": false,
+        "footer": true,
+        "usefulLinks" : false
+    },
+    {
+        "stranica" : "Documentations",
+        "href" : "Dokumentacija.pdf",
+        "header": false,
+        "footer": false,
+        "usefulLinks" : true
+    },
+    {
+        "stranica" : "Sitemap",
+        "href" : "sitemap.xml",
+        "header": false,
+        "footer": false,
+        "usefulLinks" : true
+    },
+    {
+        "stranica" : "<i class='fab fa-redhat'></i> Author",
+        "href" : "https://aleksastrugarevic.netlify.app/",
+        "header": false,
+        "footer": false,
+        "usefulLinks" : true
+    }
+]

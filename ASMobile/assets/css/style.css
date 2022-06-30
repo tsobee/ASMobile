@@ -1,0 +1,626 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.nav {
+    width: 100%;
+    display: inline;
+    float: left;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav li {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 25px;
+    list-style-type: none;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#pozadina {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/poz.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px !important;
+}
+
+#pozadina a {
+    font-size: 50px;
+    color: #ffffff;
+    opacity: 70%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.tekst {
+    color: #3333ff;
+    text-align: center;
+    padding: 20px;
+    height: 100px;
+    background-color: #ffffff;
+    opacity: 70%;
+    margin-top: 110px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.down {
+    color: #3333ff;
+    text-align: center;
+    padding: 15px;
+    width: 400px;
+    margin: 0px auto;
+    height: 60px;
+    background-color: #fff;
+    opacity: 70%;
+    margin-top: 11%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 20px;
+}
+
+.sidenav {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(51, 102, 153);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 30px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 26px;
+    margin-left: 50px;
+}
+
+#about {
+    text-align: center;
+    padding: 50px;
+    color: #3333ff;
+
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 40px;
+    width: 100%;
+    margin: 0px auto;
+    font-family: 'Roboto Mono', monospace;
+    color: #000;
+}
+
+.about p {
+    text-align: justify;
+    font-weight: 500;
+}
+
+.about img, .saus {
+    width: 40%;
+    border-radius: 20px;
+}
+
+.font {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.f {
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+    color: #3333ff;
+    display: flex;
+    justify-content: center;
+}
+
+.fil {
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+    color: #3333ff;
+}
+
+.tBtn {
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 13px;
+    padding: 4px 10px;
+    text-decoration: none;
+}
+
+#btnTop {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    z-index: 99;
+}
+
+#btnTop i {
+    font-size: 25px;
+}
+
+#btnTop a {
+    color: #3333ff;
+}
+
+.topBtn {
+    border: 3px solid #ffffff !important;
+}
+
+.bl {
+    border: 2px solid #3333ff;
+    border-radius: 20px;
+}
+
+.dugme {
+    background-color: rgb(51, 102, 153);
+    color: #fff;
+}
+
+#modeli {
+    color: #3333ff;
+    display: block;
+}
+
+#boje {
+    color: #3333ff;
+
+}
+
+#filtrr {
+    border: 3px solid #3333ff;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+#colr {
+    display: flex;
+    justify-content: space-around;
+}
+
+.squad {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: 2px solid #000;
+}
+
+.poz {
+    background-color: rgb(51, 102, 153);
+
+}
+
+.usl {
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.foot {
+    background-color: #3333ff;
+    height: 130px;
+}
+
+.foot ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.foot ul li {
+    margin-top: 35px;
+}
+
+.foot a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.use {
+    background-color: #3333ff;
+    height: 100px;
+}
+
+.use ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.use ul li {
+    margin-top: 35px;
+}
+
+.use a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#cpr {
+    width: 100%;
+    height: 30px;
+    background-color: #3333ff;
+}
+
+#cpr p {
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+}
+
+.slideshow-container {
+    padding-top: 70px;
+}
+
+.sakrij {
+    display: none;
+}
+
+.prikazi {
+
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline;
+}
+
+.greska {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.form-control {
+
+    color: rgba(0, 0, 0, 0.9) !important;
+}
+
+input {
+    border-width: 3px !important;
+    border-radius: 5px !important;
+}
+#total{
+    font-weight: bold;
+}
+.totalM {
+    display: none;
+}
+
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 30px;
+    font-size: 17px;
+}
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@media screen and (max-width: 1300px) {
+    .about p {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 1103px) {
+    .about p {
+        font-size: 13px;
+        padding-right: 30px;
+        font-weight: 400;
+    }
+
+    .about img, .saus {
+        width: 50%;
+    }
+
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    .totalM {
+        display: flex !important;
+        font-weight: bold;
+    }
+    tfoot, #total {
+        display: none;
+    }
+
+    tr {
+        margin: 0 0 2rem 0;
+    }
+
+    td {
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50% !important;
+        padding-top: 8px !important;
+        padding-bottom: 8px !important;
+    }
+
+    td:last-child {
+        padding-left: 0 !important;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    td:last-child button {
+        margin: 0 4px;
+    }
+
+    td:before {
+        position: absolute;
+        top: 0;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    td:nth-of-type(1):before {
+        content: "#";
+    }
+
+    td:nth-of-type(2):before {
+        content: "Name";
+    }
+
+    td:nth-of-type(3):before {
+        content: "Price";
+    }
+
+    td:nth-of-type(4):before {
+        content: "Quantity";
+    }
+
+    td:nth-of-type(5):before {
+        content: "Sum";
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .about p {
+        font-size: 15px;
+        padding-bottom: 20px;
+        padding-right: 0px;
+    }
+
+    .about img, .saus {
+        width: 80%;
+    }
+
+    .tekst {
+        padding: 29px;
+        height: 100px;
+        margin-top: 110px;
+        font-size: 34px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .about p {
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .foot {
+        height: 410px;
+    }
+
+    .foot ul {
+        display: block;
+        text-align: center;
+        padding-top: 3px;
+    }
+
+    .foot ul li {
+        margin-top: 25px;
+    }
+
+    .use {
+        height: 200px;
+    }
+
+    .use ul {
+        display: block;
+        text-align: center;
+        padding-top: 3px;
+    }
+
+    .use ul li {
+        margin-top: 25px;
+    }
+
+    .use a {
+
+        font-size: 17px;
+    }
+
+    .tekst {
+        padding: 25px;
+        height: 80px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #mobileMenu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #menju {
+        display: none;
+    }
+
+    #mobileMenu #mySidenav ul li {
+        padding: 8px;
+    }
+
+    #mobileMenu #mySidenav ul {
+        flex-direction: column;
+    }
+
+    .about p {
+        font-size: 14px;
+    }
+
+    .about img, .saus {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #about {
+        padding: 20px;
+    }
+
+    .about p {
+        font-size: 12px;
+    }
+
+    .tekst {
+        padding: 30px;
+        height: 80px;
+        font-size: 20px;
+    }
+
+    .down {
+
+        padding: 17px;
+        width: 300px;
+        font-size: 17px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+        width: 250px !important;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+
+
+@-webkit-keyframes fadein {
+    from {
+        top: 0;
+        opacity: 0;
+    }
+    to {
+        top: 30px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        top: 0;
+        opacity: 0;
+    }
+    to {
+        top: 30px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        top: 30px;
+        opacity: 1;
+    }
+    to {
+        top: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        top: 30px;
+        opacity: 1;
+    }
+    to {
+        top: 0;
+        opacity: 0;
+    }
+}
+

@@ -1,0 +1,816 @@
+[
+
+  {
+    "id": 1,
+    "naziv": "S21+",
+    "slika": {
+      "src": "assets/img/s21+.png",
+      "alt": "Samsung Galaxy S21+"
+    },
+    "cena": 1100,
+    "popust": 20,
+    "brand": {
+      "id": 1,
+      "naziv": "Samsung Galaxy"
+    },
+    "colors": [
+      {
+        "id": 1,
+        "naziv": "Zlatna",
+        "hex": "#ffcf40"
+      },
+      {
+        "id": 2,
+        "naziv": "Crna",
+        "hex": "#000"
+      }
+    ],
+    "opis": {
+      "ekran":"Display: Dyn AMOLED",
+      "ramM":"RAM: 8GB ",
+      "interna":"Memory: 128GB",
+      "bat":"Battery: 4800mAh",
+      "rez":"Resolution: 2400 x 1080px",
+      "in":"Size: 6.7 inches",
+      "cip":"Chipset: Exynos 2100",
+      "kam":"Camera: 12MP + 64MP + 12MP / 10MP",
+      "sistem":"OS: Android 11"
+    }
+  },
+  {
+    "id": 2,
+    "naziv": "12 Pro",
+    "slika": {
+      "src": "assets/img/12pro.png",
+      "alt": "Iphone 12 Pro"
+    },
+    "cena": 1080,
+    "popust": 0,
+    "brand": {
+      "id": 2,
+      "naziv": "Iphone"
+    },
+    "colors": [
+      {
+        "id": 2,
+        "naziv": "Crna",
+        "hex": "#000"
+      }
+    ],
+    "opis": {
+      "ekran":"Display: Super Retina XDR",
+      "ramM":"RAM: 6GB",
+      "interna":"Memory: 128GB",
+      "bat":"Battery: 2815mAh",
+      "rez":"Resolution: 2532 x 1170px",
+      "in":"Size: 6.1 inches",
+      "cip":"Chipset: Apple A A14 Bionic ",
+      "kam":"Camera: 12MP + 12MP + 12MP / 12MP",
+      "sistem":"OS: iOS 14"
+    }
+  },
+  {
+    "id": 3,
+    "naziv": "Note20",
+    "slika": {
+      "src": "assets/img/note20.png",
+      "alt": "Samsung Galaxy Note 20"
+    },
+    "cena": 1300,
+    "popust": 10,
+    "brand": {
+      "id": 1,
+      "naziv": "Samsung Galaxy"
+    },
+    "colors": [
+      {
+        "id": 2,
+        "naziv": "Crna",
+        "hex": "#000"
+      }
+    ],
+    "opis": {
+      "ekran":"Display: Super AMOLED",
+      "ramM":"RAM: 8GB",
+      "interna":"Memory: 128GB",
+      "bat":"Battery: 4300mAh",
+      "rez":"Resolution: 2400 x 1080px",
+      "in":"Size: 6.7 inches",
+      "cip":"Chipset: Exynos 990",
+      "kam":"Camera: 12MP + 64MP + 12MP / 10MP",
+      "sistem":"OS: Android 10"
+    }
+  },
+  {
+    "id": 4,
+    "naziv": "Mate 30 Pro",
+    "slika": {
+      "src": "assets/img/mate30pro.png",
+      "alt": "Huawei Mate 30 Pro"
+    },
+    "cena": 720,
+    "popust": 0,
+    "brand": {
+      "id": 3,
+      "naziv": "Huawei"
+    },
+    "colors": [
+      {
+        "id": 2,
+        "naziv": "Bela",
+        "hex": "#fff"
+      }
+    ],
+    "opis": {
+      "ekran":"Display: OLED",
+      "ramM":"RAM: 8GB",
+      "interna":"Memory: 128GB",
+      "bat":"Battery: 4500mAh",
+      "rez":"Resolution: 2400 x 1176px",
+      "in":"Size: 6.53 inches",
+      "cip":"Chipset: HiSilicon Kirin 990",
+      "kam":"Camera: 40MP + 40MP + 12MP / 32MP",
+      "sistem":"OS: Android 10"
+    }
+  },
+  {
+    "id": 5,
+    "naziv": "A71",
+    "slika": {
+      "src": "assets/img/a71.png",
+      "alt": "Samsung Galaxy A71"
+    },
+    "cena": 320,
+    "popust": 0,
+    "brand": {
+      "id": 1,
+      "naziv": "Samsung Galaxy"
+    },
+    "colors": [
+      {
+        "id": 2,
+        "naziv": "Crna",
+        "hex": "#000"
+      },
+      {
+        "id": 3,
+        "naziv": "Bela",
+        "hex": "#fff"
+      }
+    ],
+    "opis": {
+      "ekran":"Display: Super AMOLED",
+      "ramM":"RAM: 6GB",
+      "interna":"Memory: 128GB",
+      "bat":"Battery: 4500mAh",
+      "rez":"Resolution: 2400 x 1080px",
+      "in":"Size: 6.7 inches",
+      "cip":"Chipset: Qualcomm Snapdragon 730",
+      "kam":"Camera: 64MP + 12MP / 32MP",
+      "sistem":"OS: Android 10"
+    }
+  },
+  {
+    "id": 6,
+    "naziv": "A51",
+    "slika": {
+      "src": "assets/img/a51.png",
+      "alt": "Samsung Galaxy A51"
+    },
+    "cena": 245,
+    "popust": 5,
+    "brand": {
+      "id": 1,
+      "naziv": "Samsung Galaxy"
+    },
+    "colors": [
+      {
+        "id": 2,
+        "naziv": "Crna",
+        "hex": "#000"
+      },
+      {
+        "id": 3,
+        "naziv": "Bela",
+        "hex": "#fff"
+      }
+    ],
+    "opis": {
+      "ekran":"Display: Super AMOLED",
+      "ramM":"RAM: 4GB",
+      "interna":"Memory: 64GB",
+      "bat":"Battery: 4000mAh",
+      "rez":"Resolution: 2400 x 1080px",
+      "in":"Size: 6.5 inches",
+      "cip":"Chipset: Exynos 9611 Octa",
+      "kam":"Camera: 48MP + 12MP / 32MP",
+      "sistem":"OS: Android 10"
+    }
+  },
+  {
+    "id": 7,
+    "naziv": "S20 FE",
+    "slika": {
+      "src": "assets/img/s20fe.png",
+      "alt": "Samsung Galaxy S20 FE"
+    },
+    "cena": 700,
+    "popust": 10,
+    "brand": {
+      "id": 1,
+      "naziv": "Samsung Galaxy"
+    },
+    "colors": [
+      {
+        "id": 2,
+        "naziv": "Crna",
+        "hex": "#000"
+      }
+    ],
+    "opis": {
+      "ekran":"Display: Super AMOLED",
+      "ramM":"RAM: 6GB",
+      "interna":"Memory: 128GB",
+      "bat":"Battery: 4500mAh",
+      "rez":"Resolution: 2400 x 1080px",
+      "in":"Size: 6.5 inches",
+      "cip":"Chipset: Exynos 990",
+      "kam":"Camera: 12MP + 12MP + 8MP / 32MP",
+      "sistem":"OS: Android 10"
+    }
+  },
+  {
+    "id": 8,
+    "naziv": "S20 Ultra",
+    "slika": {
+      "src": "assets/img/s20ultra.png",
+      "alt": "Samsung Galaxy S20 Ultra"
+    },
+    "cena": 1225,
+    "popust": 0,
+    "brand": {
+      "id": 1,
+      "naziv": "Samsung Galaxy"
+    },
+    "colors": [
+      {
+        "id": 2,
+        "naziv": "Crna",
+        "hex": "#000"
+      }
+    ],
+    "opis": {
+      "ekran":"Display:Dyn AMOLED",
+      "ramM":"RAM: 12GB",
+      "interna":"Memory: 128GB",
+      "bat":"Battery: 5000mAh",
+      "rez":"Resolution: 3200 x 1440px",
+      "in":"Size: 6.9 inches",
+      "cip":"Chipset: Exynos 990",
+      "kam":"Camera: 108MP + 12MP + 48MP / 40MP",
+      "sistem":"OS: Android 10"
+    }
+  },
+  {
+    "id": 9,
+    "naziv": "P40",
+    "slika": {
+      "src": "assets/img/p40.png",
+      "alt": "Huawei P40"
+    },
+    "cena": 845,
+    "popust": 15,
+    "brand": {
+      "id": 3,
+      "naziv": "Huawei"
+    },
+    "colors": [
+      {
+        "id": 2,
+        "naziv": "Crna",
+        "hex": "#000"
+      },
+      {
+        "id": 3,
+        "naziv": "Bela",
+        "hex": "#fff"
+      }
+    ],
+    "opis": {
+      "ekran":"Display: OLED",
+      "ramM":"RAM: 6GB",
+      "interna":"Memory: 128GB",
+      "bat":"Battery: 3800mAh",
+      "rez":"Resolution: 2340 x 1080px",
+      "in":"Size: 6.1 inches",
+      "cip":"Chipset: HiSilicon Kirin 990 ",
+      "kam":"Camera: 50MP + 16MP + 8MP / 32MP",
+      "sistem":"OS: Android 10"
+    }
+  },
+  {
+    "id": 10,
+    "naziv": "Z Flip",
+    "slika": {
+      "src": "assets/img/zflip.png",
+      "alt": "Samsung Galaxy Z Flip"
+    },
+    "cena": 1050,
+    "popust": 5,
+    "brand": {
+      "id": 1,
+      "naziv": "Samsung Galaxy"
+    },
+    "colors": [
+      {
+        "id": 2,
+        "naziv": "Crna",
+        "hex": "#000"
+      }
+    ],
+    "opis": {
+      "ekran":"Display: Dyn AMOLED",
+      "ramM":"RAM: 8GB",
+      "interna":"Memory: 256GB",
+      "bat":"Battery: 3300mAh",
+      "rez":"Resolution: 2636 x 1080px",
+      "in":"Size: 6.7 inches",
+      "cip":"Chipset: Qualcomm Snapdragon 855+",
+      "kam":"Camera: 12MP + 12MP / 10MP",
+      "sistem":"OS: Android 10"
+    }
+  },
+  {
+    "id": 11,
+    "naziv": "11",
+    "slika": {
+      "src": "assets/img/11.png",
+      "alt": "Iphone 11"
+    },
+    "cena": 680,
+    "popust": 0,
+    "brand": {
+      "id": 2,
+      "naziv": "Iphone"
+    },
+    "colors": [
+      {
+        "id": 3,
+        "naziv": "Bela",
+        "hex": "#fff"
+      }
+    ],
+    "opis": {
+      "ekran":"Display: IPS",
+      "ramM":"RAM: 4GB",
+      "interna":"Memory: 64GB",
+      "bat":"Battery: 3110mAh",
+      "rez":"Resolution: 1792 x 828px",
+      "in":"Size: 6.1 inches",
+      "cip":"Chipset: Apple A A13 Bionic",
+      "kam":"Camera: 12MP + 12MP / 12MP",
+      "sistem":"OS: iOS 13"
+    }
+  },
+  {
+    "id": 12,
+    "naziv": "12 Mini",
+    "slika": {
+      "src": "assets/img/12m.png",
+      "alt": "Iphone 12 Mini"
+    },
+    "cena": 620,
+    "popust": 0,
+    "brand": {
+      "id": 2,
+      "naziv": "Iphone"
+    },
+    "colors": [
+      {
+        "id": 2,
+        "naziv": "Crna",
+        "hex": "#000"
+      }
+    ],
+    "opis": {
+      "ekran":"Display: Super Retina XDR",
+      "ramM":"RAM: 4GB",
+      "interna":"Memory: 64GB",
+      "bat":"Battery: 2227mAh",
+      "rez":"Resolution: 2340 x 1080px",
+      "in":"Size: 5.4 inches",
+      "cip":"Chipset: Apple A A14 Bionic",
+      "kam":"Camera: 12MP + 12MP / 12MP",
+      "sistem":"OS: iOS 14"
+    }
+  },
+  {
+    "id": 13,
+    "naziv": "12",
+    "slika": {
+      "src": "assets/img/ip12.png",
+      "alt": "Iphone 12"
+    },
+    "cena": 730,
+    "popust": 15,
+    "brand": {
+      "id": 2,
+      "naziv": "Iphone"
+    },
+    "colors": [
+      {
+        "id": 1,
+        "naziv": "Zlatna",
+        "hex": "#ffcf40"
+      },
+      {
+        "id": 2,
+        "naziv": "Crna",
+        "hex": "#000"
+      },
+      {
+        "id": 3,
+        "naziv": "Bela",
+        "hex": "#fff"
+      }
+    ],
+    "opis": {
+      "ekran":"Display: Super Retina XDR",
+      "ramM":"RAM: 4GB",
+      "interna":"Memory: 64GB",
+      "bat":"Battery: 28215mAh",
+      "rez":"Resolution: 2532 x 1170px",
+      "in":"Size: 6.1 inches",
+      "cip":"Chipset: Apple A A14 Bionic",
+      "kam":"Camera: 12MP + 12MP / 12MP",
+      "sistem":"OS: iOS 14"
+    }
+  },
+  {
+    "id": 14,
+    "naziv": "SE",
+    "slika": {
+      "src": "assets/img/se.png",
+      "alt": "Iphone SE"
+    },
+    "cena": 410,
+    "popust": 10,
+    "brand": {
+      "id": 2,
+      "naziv": "Iphone"
+    },
+    "colors": [
+      {
+        "id": 4,
+        "naziv": "Crvena",
+        "hex": "#FF0000"
+      }
+    ],
+    "opis": {
+      "ekran":"Display: Retina IPS",
+      "ramM":"RAM: 3GB",
+      "interna":"Memory: 64GB",
+      "bat":"Battery: 1821mAh",
+      "rez":"Resolution: 1334 x 750px",
+      "in":"Size: 4.7 inches",
+      "cip":"Chipset: Apple A A13 Bionic",
+      "kam":"Camera: 12MP / 7MP",
+      "sistem":"OS: iOS 13"
+    }
+  },
+  {
+    "id": 15,
+    "naziv": "XR",
+    "slika": {
+      "src": "assets/img/xr.png",
+      "alt": "Iphone XR"
+    },
+    "cena": 530,
+    "popust": 5,
+    "brand": {
+      "id": 2,
+      "naziv": "Iphone"
+    },
+    "colors": [
+      {
+        "id": 2,
+        "naziv": "Crna",
+        "hex": "#000"
+      },
+      {
+        "id": 4,
+        "naziv": "Crvena",
+        "hex": "#FF0000"
+      }
+    ],
+    "opis": {
+      "ekran":"Display: IPS",
+      "ramM":"RAM: 3GB",
+      "interna":"Memory: 64GB",
+      "bat":"Battery: 2942mAh",
+      "rez":"Resolution: 1792 x 828px",
+      "in":"Size: 6.1 inches",
+      "cip":"Chipset: Apple A A12 Bionic",
+      "kam":"Camera: 12MP / 7MP",
+      "sistem":"OS: iOS 12"
+    }
+  },
+  {
+    "id": 16,
+    "naziv": "Mi 10t",
+    "slika": {
+      "src": "assets/img/mi10t.png",
+      "alt": "Xiaomi Mi 10t"
+    },
+    "cena": 370,
+    "popust": 5,
+    "brand": {
+      "id": 4,
+      "naziv": "Xiaomi"
+    },
+    "colors": [
+      {
+        "id": 1,
+        "naziv": "Zlatna",
+        "hex": "#ffcf40"
+      },
+      {
+        "id": 2,
+        "naziv": "Crna",
+        "hex": "#000"
+      }
+    ],
+    "opis": {
+      "ekran":"Display: IPS",
+      "ramM":"RAM: 6GB",
+      "interna":"Memory: 128GB",
+      "bat":"Battery: 5000mAh",
+      "rez":"Resolution: 2400 x 1080px",
+      "in":"Size: 6.67 inches",
+      "cip":"Chipset: Qualcomm Snapdragon 865",
+      "kam":"Camera: 64MP + 13MP / 20MP",
+      "sistem":"OS: Android 10"
+    }
+  },
+  {
+    "id": 17,
+    "naziv": "Redmi Note 8 Pro",
+    "slika": {
+      "src": "assets/img/redmiNote8pro.png",
+      "alt": "Xiaomi Redmi Note 8 Pro"
+    },
+    "cena": 170,
+    "popust": 0,
+    "brand": {
+      "id": 4,
+      "naziv": "Xiaomi"
+    },
+    "colors": [
+      {
+        "id": 2,
+        "naziv": "Crna",
+        "hex": "#000"
+      }
+    ],
+    "opis": {
+      "ekran":"Display: IPS",
+      "ramM":"RAM: 6GB",
+      "interna":"Memory: 64GB",
+      "bat":"Battery: 4500mAh",
+      "rez":"Resolution: 2340 x 1080px",
+      "in":"Size: 6.53 inches",
+      "cip":"Chipset: MediaTek Helio G90T",
+      "kam":"Camera: 64MP + 8MP / 20MP",
+      "sistem":"OS: Android 9"
+    }
+  },
+  {
+    "id": 18,
+    "naziv": "Redmi Note 9S",
+    "slika": {
+      "src": "assets/img/redmiNote9s.png",
+      "alt": "Xiaomi Redmi Note 8 Pro"
+    },
+    "cena": 200,
+    "popust": 15,
+    "brand": {
+      "id": 4,
+      "naziv": "Xiaomi"
+    },
+    "colors": [
+      {
+        "id": 3,
+        "naziv": "Bela",
+        "hex": "#fff"
+      }
+    ],
+    "opis": {
+      "ekran":"Display: IPS",
+      "ramM":"RAM: 4GB",
+      "interna":"Memory: 64GB",
+      "bat":"Battery: 5020mAh",
+      "rez":"Resolution: 2400 x 1080px",
+      "in":"Size: 6.67 inches",
+      "cip":"Chipset: Qualcomm Snapdragon 720G",
+      "kam":"Camera: 48MP + 8MP / 16MP",
+      "sistem":"OS: Android 10"
+    }
+  },
+  {
+    "id": 19,
+    "naziv": "3.4",
+    "slika": {
+      "src": "assets/img/n3.4.png",
+      "alt": "Nokia 3.4"
+    },
+    "cena": 155,
+    "popust": 0,
+    "brand": {
+      "id": 5,
+      "naziv": "Nokia"
+    },
+    "colors": [
+      {
+        "id": 2,
+        "naziv": "Crna",
+        "hex": "#000"
+      }
+    ],
+    "opis": {
+      "ekran":"Display: IPS",
+      "ramM":"RAM: 3GB",
+      "interna":"Memory: 32GB",
+      "bat":"Battery: 4000mAh",
+      "rez":"Resolution: 1560 x 720px",
+      "in":"Size: 6.39 inches",
+      "cip":"Chipset: Qualcomm Snapdragon 460 (",
+      "kam":"Camera: 13MP + 5MP / 8MP",
+      "sistem":"OS: Android 10"
+    }
+  },
+  {
+    "id": 20,
+    "naziv": "5.4",
+    "slika": {
+      "src": "assets/img/n5.4.png",
+      "alt": "Nokia 5.4"
+    },
+    "cena": 215,
+    "popust": 20,
+    "brand": {
+      "id": 5,
+      "naziv": "Nokia"
+    },
+    "colors": [
+      {
+        "id": 3,
+        "naziv": "Bela",
+        "hex": "#fff"
+      }
+    ],
+    "opis": {
+      "ekran":"Display: IPS",
+      "ramM":"RAM: 4GB",
+      "interna":"Memory: 64GB",
+      "bat":"Battery: 4000mAh",
+      "rez":"Resolution: 1560 x 720px",
+      "in":"Size: 6.39 inches",
+      "cip":"Chipset: Qualcomm Snapdragon 662 (",
+      "kam":"Camera: 48MP + 5MP / 16MP",
+      "sistem":"OS: Android 10"
+    }
+  },
+  {
+    "id": 21,
+    "naziv": "P40 Lite",
+    "slika": {
+      "src": "assets/img/p40lite.png",
+      "alt": "Huawei P40 Lite"
+    },
+    "cena": 255,
+    "popust": 10,
+    "brand": {
+      "id": 3,
+      "naziv": "Huawei"
+    },
+    "colors": [
+      {
+        "id": 2,
+        "naziv": "Crna",
+        "hex": "#000"
+      }
+    ],
+    "opis": {
+      "ekran":"Display: LTPS IPS ",
+      "ramM":"RAM: 6GB",
+      "interna":"Memory: 128GB",
+      "bat":"Battery: 4200mAh",
+      "rez":"Resolution: 2310 x 1080px",
+      "in":"Size:6.4 inches",
+      "cip":"Chipset: HiSilicon Kirin 810 ",
+      "kam":"Camera: 48MP + 8MP / 16MP",
+      "sistem":"OS: Android 10"
+    }
+  },
+  {
+    "id": 22,
+    "naziv": "P40 Pro",
+    "slika": {
+      "src": "assets/img/p40pro.png",
+      "alt": "Huawei P40 Pro"
+    },
+    "cena": 1100,
+    "popust": 15,
+    "brand": {
+      "id": 3,
+      "naziv": "Huawei"
+    },
+    "colors": [
+      {
+        "id": 3,
+        "naziv": "Bela",
+        "hex": "#fff"
+      }
+    ],
+    "opis": {
+      "ekran":"Display: OLED",
+      "ramM":"RAM: 8GB",
+      "interna":"Memory: 128GB",
+      "bat":"Battery: 4200mAh",
+      "rez":"Resolution: 2640 x 1200px",
+      "in":"Size: 6.58 inches",
+      "cip":"Chipset: HiSilicon Kirin 990",
+      "kam":"Camera: 50MP + 40MP + 12MP /32MP",
+      "sistem":"OS: Android 10"
+    }
+  },
+  {
+    "id": 23,
+    "naziv": "P30 Pro",
+    "slika": {
+      "src": "assets/img/p30pro.png",
+      "alt": "Huawei P30 Pro"
+    },
+    "cena": 675,
+    "popust": 0,
+    "brand": {
+      "id": 3,
+      "naziv": "Huawei"
+    },
+    "colors": [
+      {
+        "id": 2,
+        "naziv": "Crna",
+        "hex": "#000"
+      },
+      {
+        "id": 3,
+        "naziv": "Bela",
+        "hex": "#fff"
+      }
+    ],
+    "opis": {
+      "ekran":"Display: OLED",
+      "ramM":"RAM: 6GB",
+      "interna":"Memory: 128GB",
+      "bat":"Battery: 4200mAh",
+      "rez":"Resolution: 2340 x 1080px",
+      "in":"Size: 6.47 inches",
+      "cip":"Chipset: HiSilicon Kirin 980",
+      "kam":"Camera: 40MP + 20MP + 12MP /32MP",
+      "sistem":"OS: Android 9"
+    }
+  },
+  {
+    "id": 24,
+    "naziv": "P Smart Z",
+    "slika": {
+      "src": "assets/img/pSmartZ.png",
+      "alt": "Huawei P Smart Z"
+    },
+    "cena": 155,
+    "popust": 5,
+    "brand": {
+      "id": 3,
+      "naziv": "Huawei"
+    },
+    "colors": [
+      {
+        "id": 2,
+        "naziv": "Crna",
+        "hex": "#000"
+      }
+    ],
+    "opis": {
+      "ekran":"Display: IPS",
+      "ramM":"RAM: 4GB",
+      "interna":"Memory: 64GB",
+      "bat":"Battery: 4000mAh",
+      "rez":"Resolution: 2340 x 1080px",
+      "in":"Size: 6.59 inches",
+      "cip":"Chipset: HiSilicon Kirin 710F",
+      "kam":"Camera: 16MP / 16MP",
+      "sistem":"OS: Android 9"
+    }
+  }
+]
